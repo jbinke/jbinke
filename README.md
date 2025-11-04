@@ -34,6 +34,44 @@ Adobe (Intermediate) <br>
 <b>Doctor Who Fan Website</b> 👽 <br>
 <p>This work functions as a dedicated fan wiki and media database, similar in utility to platforms like IMDb or TMDB. Its design philosophy and user experience are directly inspired by the distinctive, whimsical yet technical aesthetic of the Doctor Who franchise itself. </p> <br>
 
+```
+.doctors-carousel {
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+.doctor-slide {
+    padding: 20px;
+    text-align: center;
+    background: var(--navy);
+    border-radius: 8px;
+    margin: 0 10px;
+    border: 2px solid var(--yellow);
+}
+
+.doctor-slide img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.doctor-info {
+    padding: 15px;
+}
+
+.doctor-info h3 {
+    font-family: "Federo", sans-serif;
+    color: var(--yellow);
+    font-size: 1.8rem;
+    margin: 10px 0;
+}
+
+.doctor-info p {
+    color: var(--ltgray);
+    font-size: 1.1rem;
+}
+```
 
 
 <b>Tarot Database Website</b> 👻 <br>
