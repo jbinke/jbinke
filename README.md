@@ -32,7 +32,7 @@ Adobe (Intermediate) <br>
 <b>Favorite Projects</b> <br>
 
 <b>Doctor Who Fan Website</b> 👽 <br>
-<p>This work functions as a dedicated fan wiki and media database, similar in utility to platforms like IMDb or TMDB. Its design philosophy and user experience are directly inspired by the distinctive, whimsical yet technical aesthetic of the Doctor Who franchise itself. </p> <br>
+<p>This work functions as a dedicated fan wiki and media database, similar in utility to platforms like IMDb or TMDB. Its design philosophy and user experience are directly inspired by the distinctive, whimsical yet technical aesthetic of the Doctor Who franchise itself. Some primary functions include a photo carousel, responsive interface, day and night color shift, and a random quote generator. </p> <br>
 
 ```
 .doctors-carousel {
@@ -75,7 +75,8 @@ Adobe (Intermediate) <br>
 
 
 <b>Tarot Database Website</b> 👻 <br>
-<p>insert synopsis</p>
+<p>This website was created to synthesize the comprehensive information of my tarot website inspirations into a more streamlined, user-friendly, and visually cohesive guide, making the world of tarot more accessible to a new generation of learners. Some primary functions include a random card generator, day and night color shift, responsive design, and smooth animations.
+</p>
 
         function generateRandomCard() {
             const randomIndex = Math.floor(Math.random() * majorArcana.length);
