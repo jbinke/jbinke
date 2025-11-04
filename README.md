@@ -39,6 +39,23 @@ Adobe (Intermediate) <br>
 <b>Tarot Database Website</b> 👻 <br>
 <p>insert synopsis</p>
 
+        function generateRandomCard() {
+            const randomIndex = Math.floor(Math.random() * majorArcana.length);
+            const card = majorArcana[randomIndex];
+            
+            randomCardName.textContent = card.name;
+            randomCardMeaning.textContent = card.meaning;
+            randomCardType.textContent = "Major Arcana";
+            
+            // Flip the card
+            cardDisplay.classList.add('flipped');
+            
+            // Change the icon on the front of the card to match the selected card
+            const cardIcon = cardDisplay.querySelector('.card-front .card-icon');
+            cardIcon.className = `${card.icon} card-icon`;
+        }
+
+
 
 
 <b>Interests</b> <br>
